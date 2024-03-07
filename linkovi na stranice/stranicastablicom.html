@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stranica s tablicom</title>
+    <style>
+        header {text-align: center;}
+        /*main {vertical-align: auto;}*/
+        table {border: 1px solid black; width: 500px; }
+        th, tr {border: 1px solid red;}
+        .center {  margin-left: auto;  margin-right: auto;}
+
+    </style>
+</head>
+
+<body>
+    <p>
+        <a href="../../2024_03_07_algebra_zadatak/index.html">Vrati na naslovnu</a>
+    </p>
+    <header>Table with Rowspan and Colspan</header>
+
+    <main>
+        <table class="center">
+            <tr>
+                <th colspan="2">Name</th>              
+                <th>Class</th>
+                <th colspan="2">School</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Mahima</th>
+                <th rowspan="2">Gupta</th>
+                <th>11</th>
+                <th rowspan="2">MVM School</th>
+            </tr>
+            <tr>
+                <th>A</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Sri</th>
+                <th rowspan="2">Krishn</th>
+                <th>3</th>
+                <th rowspan="2">LMS School</th>
+            </tr>
+            <tr>
+                <th>B</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Shivika</th>
+                <th rowspan="2">Goyal</th>
+                <th>5</th>
+                <th rowspan="2">SCPM School</th>
+            </tr>
+            <tr>
+                <th>A</th>
+            </tr>
+        </table>
+    </main>
+    
+</body>
+</html>
